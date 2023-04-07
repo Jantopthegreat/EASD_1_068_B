@@ -27,6 +27,11 @@ void merge(int ojan[], int low, int mid, int high) { // ARR DIGANTI OLEH NICKNAM
         i++;
         k++;
     }
+    for (k = low; k <= high; k++) {
+        ojan[k] = b[k];
+    }
+}
+
 
 
    
