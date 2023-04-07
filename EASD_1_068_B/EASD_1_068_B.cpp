@@ -60,6 +60,14 @@ void display(int ojan[], int size) {
     }
     cout << endl;
 }
+int main() {
+    int ojan[MAX_SIZE], size;
+    input(ojan, size);
+    mergeSort(ojan, 0, size - 1);
+    display(ojan, size);
+    return 0;
+}
+
 
 
 
