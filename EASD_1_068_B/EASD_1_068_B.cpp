@@ -31,6 +31,12 @@ void merge(int ojan[], int low, int mid, int high) { // ARR DIGANTI OLEH NICKNAM
         ojan[k] = b[k];
     }
 }
+void mergeSort(int ojan[], int low, int high) {
+    if (low >= high) {
+        return;
+    }
+   
+
 
 
 
