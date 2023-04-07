@@ -34,7 +34,13 @@ void merge(int ojan[], int low, int mid, int high) { // ARR DIGANTI OLEH NICKNAM
 void mergeSort(int ojan[], int low, int high) {
     if (low >= high) {
         return;
-    }
+    } 
+    int mid = (low + high) / 2;
+    mergeSort(ojan, low, mid);
+    mergeSort(ojan, mid + 1, high);
+    merge(ojan, low, mid, high);
+}
+
    
 
 
