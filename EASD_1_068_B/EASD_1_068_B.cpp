@@ -40,6 +40,13 @@ void mergeSort(int ojan[], int low, int high) {
     mergeSort(ojan, mid + 1, high);
     merge(ojan, low, mid, high);
 }
+void input(int ojan[], int& size) {
+    cout << "MASUKAN JUMLAH ELEMEN (maksimum " << MAX_SIZE << "): ";
+    cin >> size;
+    if (size > MAX_SIZE) {
+        cout << "JUMLAH ELEMENT MELEBIHI KAPASITAS MAKSIMUM, MERUBAH JUMLAH ELEMENT MENJADI : " << MAX_SIZE << endl;
+        size = MAX_SIZE;
+
 
    
 
