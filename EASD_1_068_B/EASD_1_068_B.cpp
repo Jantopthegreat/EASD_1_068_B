@@ -47,6 +47,13 @@ void input(int ojan[], int& size) {
         cout << "JUMLAH ELEMENT MELEBIHI KAPASITAS MAKSIMUM, MERUBAH JUMLAH ELEMENT MENJADI : " << MAX_SIZE << endl;
         size = MAX_SIZE;
 
+    }
+    cout << "MASUKAN ELEMENT : ";
+    for (int i = 0; i < size; i++) {
+        cin >> ojan[i];
+    }
+}
+
 
    
 
