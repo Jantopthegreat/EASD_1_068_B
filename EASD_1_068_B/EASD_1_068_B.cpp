@@ -53,6 +53,14 @@ void input(int ojan[], int& size) {
         cin >> ojan[i];
     }
 }
+void display(int ojan[], int size) {
+    cout << "Array yang sudah disusun : ";
+    for (int i = 0; i < size; i++) {
+        cout << ojan[i] << " ";
+    }
+    cout << endl;
+}
+
 
 
    
